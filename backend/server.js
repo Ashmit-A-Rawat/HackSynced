@@ -18,6 +18,7 @@ app.get("/", (req, res) => {
 
 // connect database
 connectDB();
+console.log("Mongo URI:", process.env.MONGO_URI);
 
 const PORT = process.env.PORT || 5001;
 
