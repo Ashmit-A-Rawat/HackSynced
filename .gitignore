@@ -1,0 +1,59 @@
+############################
+# Node / MERN Common
+############################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+############################
+# Environment variables
+############################
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+############################
+# Backend
+############################
+backend/node_modules/
+backend/logs/
+backend/*.log
+
+############################
+# Frontend (React)
+############################
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.env
+
+############################
+# MongoDB
+############################
+data/
+*.mongodb
+
+############################
+# OS / Editor junk
+############################
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+############################
+# Testing / Coverage
+############################
+coverage/
+*.lcov
+
+############################
+# Optional: Uploads / Temp
+############################
+uploads/
+tmp/
+temp/
