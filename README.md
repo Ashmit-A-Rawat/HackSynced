@@ -54,8 +54,6 @@ ML Synthesizer (Decision Engine)
 ↓
 Verdict + Confidence + Key Evidence
 
-yaml
-Copy code
 
 ---
 
